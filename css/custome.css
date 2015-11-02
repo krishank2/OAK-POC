@@ -1,0 +1,196 @@
+html {
+            -ms-overflow-style: scrollbar;
+        }
+/*Reset CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*end of Reset CSS*/
+
+        .lightBlue{
+            background: #0096d7;
+            margin-bottom: 0;
+            border-bottom: none;
+        }
+        .logo {
+          background: url('../images/logo.png');
+          display: block;
+          margin: auto;
+          width: 215px;
+          height: 61px;
+          background-position-y: 7px;
+          background-repeat: no-repeat;
+      }
+        .custome-nav-container{
+          background: #67bbe0;
+        }
+        .customeNav{
+           background: #67bbe0;
+           margin: auto;
+           border-bottom: none;
+        }
+        .active > a{
+          background: #67bbe0 !important;
+          border: none !important;
+          color: #0f4c7b !important;
+          font-weight: bold;  
+          
+        }
+        li.active{
+         border-bottom: 3px solid #0f4c7b;
+        }
+        ul.customeNav > li > a{
+          color: #fff;
+        }
+        .nav-tabs>li>a:hover {
+          border-color: #eee #eee #ddd;
+          background: transparent;
+          border: none;
+          background: #67bbe0 !important;
+          border: none !important;
+          color: #0f4c7b !important;
+          font-weight: bold;
+      }
+      body{
+         background: url('../images/background-small.png');
+         background-size: 100%;
+         background-position-y: -84px;
+      }
+      .nav-tabs>li {
+          width: 25%;
+          text-align: center;
+      }
+      .primary-headding{
+        font-size: 18px;
+        color: #0f4c7b;
+      }
+      .main-headding{
+        font-size: 31px;
+        color: #0f4c7b;
+      }
+      .bold-headding{
+        font-size: 31px;
+        color: #0f4c7b;
+        font-weight: bold;
+      }
+      .mid-content-top > p {
+        margin-bottom: 8px;
+        text-align: center;
+      }
+      .mid-content-top{
+        margin: 20px 0
+     }
+     .look-up {
+        background: url('../images/lockup.png') no-repeat;
+        width: 80px;
+        height: 80px;
+        margin: auto;
+    }
+    .sidebar-toggle > i{
+     padding-left: 15px;
+     color:#fff !important;
+    }
+    .clearfix:after { 
+       content: "."; 
+       visibility: hidden; 
+       display: block; 
+       height: 0; 
+       clear: both;
+    }
+    .r-float{
+      float: right;
+    }
+    .l-float{
+      float: left;
+    }
+    .bold-black{
+      font-size: 20px;
+      color: #000;
+      font-weight: bold;
+    }
+    .black-sub{
+      font-size: 14px;
+      color: #7b7c7d;
+    }
+    .oak-footer{
+      min-height: 75px;
+      background-color: #0096d7;
+      color: #fff;
+    }
+    .mid-content {
+      width: 49%;
+      display: inline-block;
+      vertical-align: top;
+      padding: 25px 20px;
+    }
+    .mid-content > h4,.mid-content > p{
+      margin-bottom: 5px;
+    }
+    .tupple-des{
+      color: #7b7c7d;
+      font-size: 11px;
+      margin-bottom: 5px;
+      position: relative;
+    }
+    .tupple-headding{
+      font-size: 14px;
+      color: #67bbe0;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    .click-tupple{
+      background-color: #fff;
+    }
+    .tupple-des > i {
+        position: absolute;
+        color: #d3be10;
+        font-size: 20px;
+        top: 50%;
+        margin-top: -10px;
+        right: 0;
+    }
+    .click-tupple{
+      padding: 10px;
+      background: #fff;
+    }
